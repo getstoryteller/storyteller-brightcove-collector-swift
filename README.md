@@ -4,10 +4,12 @@ This package is a utility to record player events from an `AVPlayer` and feed th
 
 ## Setup
 
-At app launch, set your Brightcove account:
+At app launch, set your Brightcove account and optionally your player name:
 
 ```swift
 Brightcove.Collector.account = "<account ID>"
+// optional
+Brightcove.Collector.playerName = "<player name>"
 ```
 
 ## Usage
