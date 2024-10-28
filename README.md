@@ -4,7 +4,7 @@ This package is a utility to record player events from an `AVPlayer` and feed th
 
 ## Setup
 
-At app launch, setup Brightcove Module with your data by creating `StorytellerBrightcoveModuleConfiguration`:
+At app launch, set up the Brightcove Module with your data by creating `StorytellerBrightcoveModuleConfiguration`:
 
 ```swift
 let brightcoveConfiguration = StorytellerBrightcoveModuleConfiguration(
@@ -15,8 +15,8 @@ let brightcoveConfiguration = StorytellerBrightcoveModuleConfiguration(
 )
 ```
 
-Next step is to create a `StorytellerBrightcoveModule` and pass it to the `modules` array on the `Storyteller` object:
+The next step is to create a `StorytellerBrightcoveModule` and add it to the `modules` array on the `Storyteller` object:
 
 ```swift
-Storyteller.modules = [StorytellerBrightcoveModule(configuration: brightcoveConfiguration)]
+Storyteller.modules.append(StorytellerBrightcoveModule(configuration: brightcoveConfiguration))
 ```
