@@ -15,7 +15,7 @@ let package = Package(
     ],
     targets: [
       .binaryTarget(name: "BrightcoveCollector",
-                    url: "https://storyteller.azureedge.net/sdk-ios/brightcove/1.2.0/StorytellerBrightcoveIntegration.zip",
-                    checksum: "f28a47d50aaf2f81111b0fc9d2340a18709b88818fa718029a27e56b201a1104")
+                    url: "https://storyteller.azureedge.net/sdk-ios/brightcove/1.3.0/StorytellerBrightcoveIntegration.zip",
+                    checksum: "3b8c08571789d9d4d1e2fb13154008a4529a265fd24e3d6de8a89ab84d9c579d")
     ]
 )
